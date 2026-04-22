@@ -1,58 +1,97 @@
-#🎯 Contact Management System (Java)
-##📌 Overview
+# 🎯 Guessing Game Application (Java)
 
-This project is a console-based Contact Management System developed in Java as part of my Software Development Internship (Task 03) at Prodigy InfoTech.
-The program allows users to store, manage, and maintain contact details efficiently.
-...
-##🎯 Objective
+## 📌 Overview
 
-To build an interactive CRUD-based application that demonstrates file handling, object serialization, and user-driven menu operations in Java.
-..
-##🚀 Features
+This project is a **console-based Guessing Game** developed in Java as part of my **Software Development Internship (Task 02)** at Prodigy InfoTech.
+The program generates a random number and challenges the user to guess it with hints provided after each attempt.
 
-Adds new contacts with Name, Phone, and Email
+---
 
-Displays all saved contacts
+## 🎯 Objective
 
-Edits existing contact details
+To build an **interactive user-driven application** that demonstrates logic building using loops, conditions, and random number generation.
 
-Deletes contacts when needed
+---
 
-Stores data permanently using file handling (contacts.dat)
+## 🚀 Features
 
-Menu-driven console interface for easy use
+* Generates a random number between **1 and 100**
+* Accepts user input
+* Provides feedback:
 
-🛠️ Tech Stack
+  * 📉 Too Low
+  * 📈 Too High
+* Tracks total number of attempts
+* Runs until the correct guess is made
 
-Language: Java
+---
 
-IDE: IntelliJ IDEA
+## 🛠️ Tech Stack
 
-Concepts Used:
+* **Language:** Java
+* **IDE:** IntelliJ IDEA
+* **Concepts Used:**
 
-Object Serialization
+  * Random Class
+  * While Loop
+  * Conditional Statements
 
-File Handling
+---
 
-ArrayList
+## ▶️ How to Run
 
-Switch Case
+1. Open the project in IntelliJ IDEA
+2. Compile the program
+3. Run 
+4. Enter your guesses until you find the correct number
 
-Loops & Conditional Statements
+---
 
-▶️ How to Run
+## 💡 Sample Output
 
-Open the project in IntelliJ IDEA
+Welcome to the Guessing Game!
+Guess a number between 1 and 100
 
-Compile the program
+Enter your guess: 40
+Too low!
 
-Run
+Enter your guess: 80
+Too high!
 
-Choose options from the menu to manage contacts
+Enter your guess: 65
+Correct!
+Total attempts: 3
 
-💡 Sample Output
+---
 
---- Contact Management System ---
+## 📚 Learning Outcomes
+
+* Learned how to generate random numbers in Java
+* Improved problem-solving and logical thinking
+* Practiced loops and conditional statements
+* Built an interactive console-based application
+
+---
+
+## 📁 Repository Name
+
+PRODIGY_SD_02
+
+---
+
+## 👩‍💻 Author
+
+Rakhi Biswas
+
+---
+
+## 📢 Internship Details
+
+**Domain:** Software Development
+**Task:** Guessing Game
+**Organization:** Prodigy InfoTech
+
+---
 
 Add Contact
 View Contacts
