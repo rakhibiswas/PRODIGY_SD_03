@@ -1,63 +1,88 @@
+🎯 Contact Management System (Java)
 📌 Overview
 
 This project is a console-based Contact Management System developed in Java as part of my Software Development Internship (Task 03) at Prodigy InfoTech.
-The program allows users to add, view, edit, and delete contacts, with all data stored persistently in a file.
+The program allows users to store, manage, and maintain contact details efficiently.
 
 🎯 Objective
 
-To build a simple CRUD-based contact manager using Java, implementing data storage, serialization, and user-friendly menu-driven interaction.
+To build an interactive CRUD-based application that demonstrates file handling, object serialization, and user-driven menu operations in Java.
 
 🚀 Features
-➕ Add new contacts (Name, Phone Number, Email)
-📄 View all saved contacts
-✏️ Edit existing contact information
-❌ Delete contacts
-💾 Contacts are saved permanently using file-based serialization
-🗂 Menu-driven interface for smooth user interaction
+
+Adds new contacts with Name, Phone, and Email
+
+Displays all saved contacts
+
+Edits existing contact details
+
+Deletes contacts when needed
+
+Stores data permanently using file handling (contacts.dat)
+
+Menu-driven console interface for easy use
+
 🛠️ Tech Stack
+
 Language: Java
+
 IDE: IntelliJ IDEA
+
 Concepts Used:
-File Handling
+
 Object Serialization
+
+File Handling
+
 ArrayList
+
 Switch Case
-Loops & Input Handling
+
+Loops & Conditional Statements
+
 ▶️ How to Run
+
 Open the project in IntelliJ IDEA
-Run Main.java
-Choose any option from the menu:
+
+Compile the program
+
+Run
+
+Choose options from the menu to manage contacts
+
+💡 Sample Output
+
+--- Contact Management System ---
+
 Add Contact
 View Contacts
 Edit Contact
 Delete Contact
-Data will be saved automatically in contacts.dat
-💡 Sample Output
---- Contact Management System ---
-1. Add Contact
-2. View Contacts
-3. Edit Contact
-4. Delete Contact
-5. Exit
+Exit
+
 Enter choice: 1
 
 Enter Name: John Doe
 Enter Phone: 9876543210
 Enter Email: john@gmail.com
+
 Contact Added!
 
---- Contact Management System ---
-1. Add Contact
-2. View Contacts
 Enter choice: 2
 
-1. Name: John Doe, Phone: 9876543210, Email: john@gmail.com
+Name: John Doe, Phone: 9876543210, Email: john@gmail.com
 📚 Learning Outcomes
-Learned how to store objects using Java Serialization
-Improved understanding of File Handling
-Practiced CRUD Operations
+
+Learned how to store data using file serialization
+
+Improved understanding of CRUD operations
+
+Practiced file handling in Java
+
 Built a real-world utility application
-Enhanced logic-building and structured programming skills
+
+Enhanced logical thinking and program structure
+
 📁 Repository Name
 
 PRODIGY_SD_03
