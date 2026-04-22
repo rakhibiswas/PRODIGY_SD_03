@@ -1,14 +1,14 @@
-🎯 Contact Management System (Java)
-📌 Overview
+#🎯 Contact Management System (Java)
+##📌 Overview
 
 This project is a console-based Contact Management System developed in Java as part of my Software Development Internship (Task 03) at Prodigy InfoTech.
 The program allows users to store, manage, and maintain contact details efficiently.
-
-🎯 Objective
+...
+##🎯 Objective
 
 To build an interactive CRUD-based application that demonstrates file handling, object serialization, and user-driven menu operations in Java.
-
-🚀 Features
+..
+##🚀 Features
 
 Adds new contacts with Name, Phone, and Email
 
