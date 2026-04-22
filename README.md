@@ -53,14 +53,21 @@ To build an interactive application that demonstrates file handling, object stor
 --- Contact Management System ---
 
 Add Contact
+
 View Contacts
+
 Edit Contact
+
 Delete Contact
+
 Exit
 
 Enter choice: 1
+
 Enter Name: Rakhi
+
 Enter Phone: 9876543210
+
 Enter Email: rakhi@gmail.com
 
 Contact Added!
